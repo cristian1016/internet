@@ -32,11 +32,16 @@ a {
     margin-top: 5px;
     border-radius: 3px;
     margin-bottom: 4px;
+    line-height: 15px;
 }
 
 .navigation a:hover {
     background-color: rgb(255, 245, 137);
     text-decoration: underline;
+}
+
+strong {
+    font-style: italic;
 }
 
 footer img {

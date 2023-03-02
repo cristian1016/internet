@@ -59,6 +59,7 @@ img {
 
 .content {
     padding: 30px 30px;
+    overflow: scroll;
 }
 
 footer {
