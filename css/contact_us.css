@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #e1dede;
+}
+
+header {
+    max-width: 100%;
+    display: flex;
+    background: linear-gradient(to right, #3197e0, #01407b);
+    color: #fff;
+    border-bottom: 4px solid #ff4800;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+header h1 {
+    font-size: 40px;
+    padding-left: 150px;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+#contact_us_color {
+    background-color: #ff4800;
+    color: #fff;
+}
+
+header a:hover {
+    background-color: #ff4800;
+    color: #fff;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    width: 80%;
+    justify-content: end;
+}
+
+nav a {
+    color: #333;
+    background-color: rgb(203, 201, 201);
+    margin: 0 20px;
+    font-weight: bold;
+    padding: 7px;
+    border-radius: 8px;
+}
+
+.form {
+    /* background-color: #333; */
+    color: #ffff;
+    padding:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    /* background: linear-gradient(to right,#01407b, #3197e0); */
+    background-color: #0559a7;
+    border-radius: 10px;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 0 20px rgb(33, 32, 32);
+}
+
+input,
+textarea {
+    background-color: rgba(0, 0, 0, 0.393);
+    border: none;
+    color: white;
+    padding: 5px;
+}
+
+p {
+    color: white;
+}
+
+#submit input {
+    background-color: #ff4800;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+}
+
+#submit {
+    text-align: center;
+}
+
+input, textarea {
+    border-radius: 10px;
+}
+
+#email {
+    margin-left: 10.5%;
+}
+
+#name {
+    margin-left: 10%;
+}
+
+#phone_number {
+    margin-left: 9%;
+}
+
+#country {
+    margin-left: 6.5%;
+}
+
+#city {
+    margin-left: 14%;
+}
+
+footer {
+    background-color: #333;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+  }

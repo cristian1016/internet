@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>contact us</title>
+    <link rel="stylesheet" href="/css/contact_us.css">
+</head>
+
+<body>
+    <header>
+        <h1>INTERNET</h1>
+        <nav>
+            <ul>
+                <li><a href="/index.html">index</a></li>
+                <li><a id="contact_us_color" href="/html/contact_us.html">contact us</a></li>
+                <li><a href="/html/top_websites.html">top websites</a></li>
+                <li><a href="/html/about_me.html">about me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="form">
+        <form action="./index.html" method="post">
+
+            <div>
+                <label class="email" for="email">Email</label>
+                <input type="text" name="email" id="email" placeholder="cristian@gmail.com" required> <br><br>
+            </div>
+
+            <div>
+                <label class="phone" for="phone_number">Phone</label>
+                <input type="number" name="phone_number" id="phone_number" placeholder="3213213212" required>
+                <br><br>
+            </div>
+
+            <div>
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" required pattern="[a-zA-Z ]+">
+                <br><br>
+            </div>
+
+            <div class="country">
+                <label for="country">Country</label>
+                <input type="text" list="countries" id="country" name="country" placeholder="Colombia">
+                <datalist id="countries">
+                    <option value="Colombia"></option>
+                    <option value="United State"></option>
+                    <option value="Canada"></option>
+                    <option value="Spain"></option>
+                </datalist>
+                <br><br>
+            </div>
+
+            <div class="city">
+                <label for="city">City</label>
+                <input type="text" list="cities" id="city" name="city" placeholder="Armenia">
+                <datalist id="cities">
+                    <option value="Armenia"></option>
+                    <option value="Bogota"></option>
+                    <option value="Washinton"></option>
+                    <option value="Madrid"></option>
+                    <option value="Ottawa"></option>
+                </datalist>
+                <br><br>
+            </div>
+
+            <div id="Why_contacting">
+                <h3>Why are you contacting us?</h3>
+                <label for="recommended">They recommended the page to me</label>
+                <input type="checkbox" name="recommended" id="recommended" value="recommended"> <br><br>
+
+                <label for="I_want_to_know">I want to know about the internet</label>
+                <input type="checkbox" name="I_want_to_know" id="I_want_to_know" value="I_want_to_know"> <br><br>
+
+                <label for="curiosity">out of curiosity enter this page</label>
+                <input type="checkbox" name="curiosity" id="curiosity" value="curiosity"><br><br>
+
+                <label for="other">other</label>
+                <input type="checkbox" name="other" id="other" value="other"><br>
+            </div>
+
+            <div id="observations">
+                <label for="observations"></label> <br>
+                <textarea name="observations" id="observations" cols="50" rows="5">
+                Observations
+                </textarea>
+            </div>
+
+            <div id="submit">
+                <input type="submit" value="SEND">
+            </div>
+        </form>
+    </div>
+
+    <footer>
+        <p>Cristian Pulgarin &copy;2023 developer</p>
+    </footer>
+</body>
+
+</html>
